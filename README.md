@@ -21,7 +21,7 @@ Step 4: Project Proporties -> Configuration Properties -> Linker
 
 Step 4.1: Change Additional Dependencies to: opencv_world343d.lib
 
-Step 5: You can download the cpp and h files to you Visual Studio and try to see if the setup worked.
+Step 5: You can download the cpp and h files to you Visual Studio and run the program.
 
 IF YOU GET THE ERROR "The code execution cannot proceed becuse opencv_world343d was not found" YOU PUT THE FOLLOWING FILES IN THE SAME FOLDER AS THE PROJECT.
 
