@@ -236,6 +236,7 @@ int main(int argc, char* argv[])
 	capture.set(CV_CAP_PROP_FRAME_HEIGHT,FRAME_HEIGHT);
 	//start an infinite loop where webcam feed is copied to cameraFeed matrix
 	//all of our operations will be performed within this loop
+	//waitkey was 1000 but i changed to 10 becuse of delay problems with stream
 	waitKey(10);
 	while(1){
 		//store image to matrix
